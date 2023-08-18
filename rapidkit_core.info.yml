@@ -1,0 +1,5 @@
+name: RapidKit Core
+description: "RapidKit's core modules and configurations."
+type: module
+core_version_requirement: ^10
+package: RapidKit
