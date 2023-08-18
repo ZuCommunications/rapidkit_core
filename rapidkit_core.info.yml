@@ -6,15 +6,14 @@ package: RapidKit
 dependencies:
   - admin_toolbar:admin_toolbar
   - admin_toolbar:admin_toolbar_tools
+  - ctools:ctools
   - drupal:automated_cron
   - drupal:block
   - drupal:breakpoint
   - drupal:ckeditor5
-  - drupal:sdc
   - drupal:config
   - drupal:content_moderation
   - drupal:contextual
-  - ctools:ctools
   - drupal:datetime
   - drupal:datetime_range
   - drupal:dblog
@@ -28,25 +27,34 @@ dependencies:
   - drupal:history
   - drupal:image
   - drupal:link
-  - linkit:linkit
   - drupal:menu_link_content
   - drupal:menu_ui
-  - metatag:metatag
   - drupal:node
   - drupal:options
   - drupal:page_cache
   - drupal:path
-  - pathauto:pathauto
-  - redirect:redirect
   - drupal:responsive_image
+  - drupal:sdc
   - drupal:shortcut
   - drupal:system
   - drupal:taxonomy
   - drupal:text
-  - token:token
   - drupal:toolbar
   - drupal:tour
   - drupal:user
   - drupal:views
   - drupal:views_ui
+  - devel:devel
+  - file_delete:file_delete
+  - linkit:linkit
+  - metatag:metatag
+  - pathauto:pathauto
+  - redirect:redirect
+  - reroute_email:reroute_email
+  - symfony_mailer:symfony_mailer
+  - token:token
+  - twig_field_value:twig_field_value
+  - twig_tweak:twig_tweak
+  - twig_vardumper:twig_vardumper
+  - upgrade_status:upgrade_status
   - webp:webp
