@@ -3,3 +3,50 @@ description: "RapidKit's core modules and configurations."
 type: module
 core_version_requirement: ^10
 package: RapidKit
+dependencies:
+  - admin_toolbar:admin_toolbar
+  - admin_toolbar:admin_toolbar_tools
+  - drupal:automated_cron
+  - drupal:block
+  - drupal:breakpoint
+  - drupal:ckeditor5
+  - drupal:sdc
+  - drupal:config
+  - drupal:content_moderation
+  - drupal:contextual
+  - ctools:ctools
+  - drupal:datetime
+  - drupal:datetime_range
+  - drupal:dblog
+  - drupal:dynamic_page_cache
+  - drupal:editor
+  - drupal:field
+  - drupal:field_ui
+  - drupal:file
+  - drupal:filter
+  - drupal:help
+  - drupal:history
+  - drupal:image
+  - drupal:link
+  - linkit:linkit
+  - drupal:menu_link_content
+  - drupal:menu_ui
+  - metatag:metatag
+  - drupal:node
+  - drupal:options
+  - drupal:page_cache
+  - drupal:path
+  - pathauto:pathauto
+  - redirect:redirect
+  - drupal:responsive_image
+  - drupal:shortcut
+  - drupal:system
+  - drupal:taxonomy
+  - drupal:text
+  - token:token
+  - drupal:toolbar
+  - drupal:tour
+  - drupal:user
+  - drupal:views
+  - drupal:views_ui
+  - webp:webp
