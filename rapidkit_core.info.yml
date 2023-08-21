@@ -49,6 +49,7 @@ dependencies:
   - environment_indicator:environment_indicator
   - environment_indicator:environment_indicator_ui
   - file_delete:file_delete
+  - guardr_core:guardr_core
   - linkit:linkit
   - metatag:metatag
   - pathologic:pathologic
