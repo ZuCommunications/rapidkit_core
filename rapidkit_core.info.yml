@@ -49,6 +49,7 @@ dependencies:
   - file_delete:file_delete
   - linkit:linkit
   - metatag:metatag
+  - pathologic:pathologic
   - pathauto:pathauto
   - redirect:redirect
   - reroute_email:reroute_email
