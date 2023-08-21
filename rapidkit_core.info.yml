@@ -46,6 +46,8 @@ dependencies:
   - drupal:views
   - drupal:views_ui
   - devel:devel
+  - environment_indicator:environment_indicator
+  - environment_indicator:environment_indicator_ui
   - file_delete:file_delete
   - linkit:linkit
   - metatag:metatag
