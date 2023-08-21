@@ -27,6 +27,8 @@ dependencies:
   - drupal:history
   - drupal:image
   - drupal:link
+  - drupal:media
+  - drupal:media_library
   - drupal:menu_link_content
   - drupal:menu_ui
   - drupal:node
@@ -58,6 +60,7 @@ dependencies:
   - reroute_email:reroute_email
   - symfony_mailer:symfony_mailer
   - svg_image:svg_image
+  - svg_image:svg_image_responsive
   - token:token
   - twig_field_value:twig_field_value
   - twig_tweak:twig_tweak
