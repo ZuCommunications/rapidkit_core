@@ -8,6 +8,7 @@ dependencies:
   - admin_toolbar:admin_toolbar_tools
   - ctools:ctools
   - drupal:automated_cron
+  - drupal:big_pipe
   - drupal:block
   - drupal:breakpoint
   - drupal:ckeditor5
