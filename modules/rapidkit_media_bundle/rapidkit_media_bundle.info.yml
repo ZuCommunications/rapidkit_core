@@ -1,4 +1,4 @@
-name: RapidKit Core
+name: RapidKit Media Bundle
 description: "Provides media features and common bundles."
 type: module
 core_version_requirement: ^10
