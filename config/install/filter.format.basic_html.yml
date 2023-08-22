@@ -6,6 +6,8 @@ dependencies:
     - linkit
     - media
     - pathologic
+_core:
+  default_config_hash: USBpSoAnUfqG--7DWO7Gn892B46CbyPzRBQTGslIQjk
 name: 'Basic HTML'
 format: basic_html
 weight: 0
@@ -81,7 +83,9 @@ filters:
     settings:
       default_view_mode: default
       allowed_view_modes: {  }
-      allowed_media_types: {  }
+      allowed_media_types:
+        image: image
+        remote_video: remote_video
   filter_autop:
     id: filter_autop
     provider: filter
