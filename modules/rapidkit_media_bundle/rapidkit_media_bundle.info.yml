@@ -1,0 +1,10 @@
+name: RapidKit Core
+description: "Provides media features and common bundles."
+type: module
+core_version_requirement: ^10
+package: RapidKit
+dependencies:
+  - drupal:media
+  - drupal:media_library
+  - svg_image:svg_image
+  - svg_image:svg_image_responsive

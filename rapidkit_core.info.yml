@@ -27,8 +27,6 @@ dependencies:
   - drupal:history
   - drupal:image
   - drupal:link
-  - drupal:media
-  - drupal:media_library
   - drupal:menu_link_content
   - drupal:menu_ui
   - drupal:node
@@ -55,12 +53,11 @@ dependencies:
   - metatag:metatag
   - pathologic:pathologic
   - pathauto:pathauto
+  - rapidkit_media_bundle:rapidkit_media_bundle
   - redirect:redirect
   - reroute_email:reroute_email
   - security_review:security_review
   - symfony_mailer:symfony_mailer
-  - svg_image:svg_image
-  - svg_image:svg_image_responsive
   - token:token
   - twig_field_value:twig_field_value
   - twig_tweak:twig_tweak
