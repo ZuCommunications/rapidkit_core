@@ -57,6 +57,7 @@ dependencies:
   - pathauto:pathauto
   - redirect:redirect
   - reroute_email:reroute_email
+  - security_review:security_review
   - symfony_mailer:symfony_mailer
   - svg_image:svg_image
   - svg_image:svg_image_responsive
