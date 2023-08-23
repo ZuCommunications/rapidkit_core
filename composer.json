@@ -16,6 +16,7 @@
     "drupal/entity_browser": "^2.9",
     "drupal/environment_indicator": "^4.0",
     "drupal/file_delete": "^2.0",
+    "drupal/focal_point": "^2.0",
     "drupal/inline_entity_form": "^2.0@RC",
     "drupal/linkit": "^6.1",
     "drupal/metatag": "^2.0",

@@ -6,5 +6,6 @@ package: RapidKit
 dependencies:
   - drupal:media
   - drupal:media_library
+  - focal_point:focal_point
   - svg_image:svg_image
   - svg_image:svg_image_responsive
