@@ -1,13 +1,15 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.media.16_9
+    - core.entity_view_mode.media.1_1
+    - core.entity_view_mode.media.4_3
   module:
     - editor
     - linkit
     - media
     - pathologic
-_core:
-  default_config_hash: USBpSoAnUfqG--7DWO7Gn892B46CbyPzRBQTGslIQjk
 name: 'Basic HTML'
 format: basic_html
 weight: 0
@@ -18,7 +20,7 @@ filters:
     status: true
     weight: -50
     settings:
-      allowed_html: '<br> <p class="text-align-left text-align-center text-align-right text-align-justify"> <h2 id class="text-align-left text-align-center text-align-right text-align-justify"> <h3 id class="text-align-left text-align-center text-align-right text-align-justify"> <h4 id class="text-align-left text-align-center text-align-right text-align-justify"> <h5 id class="text-align-left text-align-center text-align-right text-align-justify"> <h6 id class="text-align-left text-align-center text-align-right text-align-justify"> <cite> <dl> <dt> <dd> <a hreflang href data-entity-type data-entity-uuid data-entity-substitution> <blockquote cite> <ul type> <ol start type> <strong> <em> <u> <s> <li> <hr> <table> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption> <drupal-media data-entity-type data-entity-uuid alt data-caption data-align>'
+      allowed_html: '<br> <p class="text-align-left text-align-center text-align-right text-align-justify"> <h2 id class="text-align-left text-align-center text-align-right text-align-justify"> <h3 id class="text-align-left text-align-center text-align-right text-align-justify"> <h4 id class="text-align-left text-align-center text-align-right text-align-justify"> <h5 id class="text-align-left text-align-center text-align-right text-align-justify"> <h6 id class="text-align-left text-align-center text-align-right text-align-justify"> <cite> <dl> <dt> <dd> <a hreflang href data-entity-type data-entity-uuid data-entity-substitution> <blockquote cite> <ul type> <ol start type> <strong> <em> <u> <s> <li> <hr> <table> <tr> <td rowspan colspan> <th rowspan colspan> <thead> <tbody> <tfoot> <caption> <drupal-media data-entity-type data-entity-uuid alt data-view-mode data-caption data-align>'
       filter_html_help: false
       filter_html_nofollow: false
   filter_align:
@@ -81,8 +83,11 @@ filters:
     status: true
     weight: -46
     settings:
-      default_view_mode: default
-      allowed_view_modes: {  }
+      default_view_mode: '4_3'
+      allowed_view_modes:
+        '16_9': '16_9'
+        '1_1': '1_1'
+        '4_3': '4_3'
       allowed_media_types:
         image: image
         remote_video: remote_video
