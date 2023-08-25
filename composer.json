@@ -13,6 +13,7 @@
   "require": {
     "cweagans/composer-patches": "^1.7",
     "drupal/admin_toolbar": "^3.4",
+    "drupal/cl_server": "^2.0@beta",
     "drupal/entity_browser": "^2.9",
     "drupal/environment_indicator": "^4.0",
     "drupal/file_delete": "^2.0",

@@ -6,6 +6,7 @@ package: RapidKit
 dependencies:
   - admin_toolbar:admin_toolbar
   - admin_toolbar:admin_toolbar_tools
+  - cl_server:cl_server
   - ctools:ctools
   - drupal:automated_cron
   - drupal:big_pipe
@@ -36,6 +37,7 @@ dependencies:
   - drupal:page_cache
   - drupal:path
   - drupal:responsive_image
+  - drupal:sdc
   - drupal:shortcut
   - drupal:system
   - drupal:taxonomy
