@@ -36,7 +36,6 @@ dependencies:
   - drupal:page_cache
   - drupal:path
   - drupal:responsive_image
-  - drupal:sdc
   - drupal:shortcut
   - drupal:system
   - drupal:taxonomy
