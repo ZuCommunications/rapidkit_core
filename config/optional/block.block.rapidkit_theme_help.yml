@@ -7,8 +7,8 @@ dependencies:
     - rapidkit_theme
 id: rapidkit_theme_help
 theme: rapidkit_theme
-region: help
-weight: 0
+region: content_above
+weight: -3
 provider: null
 plugin: help_block
 settings:
