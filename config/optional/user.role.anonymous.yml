@@ -1,0 +1,15 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - cl_server
+    - media
+    - system
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use cl server'
+  - 'view media'
