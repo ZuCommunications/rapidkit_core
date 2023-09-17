@@ -25,6 +25,7 @@
     "drupal/pathologic": "^2.0@alpha",
     "drupal/redirect": "^1.8",
     "drupal/reroute_email": "^2.2",
+    "drupal/schema_metatag": "^3.0",
     "drupal/svg_image": "^3.0",
     "drupal/symfony_mailer": "^1.2",
     "drupal/token": "^1.12",

@@ -38,6 +38,7 @@ dependencies:
   - drupal:path
   - drupal:responsive_image
   - drupal:sdc
+  - drupal:schema_metatag
   - drupal:shortcut
   - drupal:system
   - drupal:taxonomy
