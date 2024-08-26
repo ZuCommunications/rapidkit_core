@@ -1,7 +1,7 @@
 name: RapidKit Core
 description: "RapidKit's core modules and configurations."
 type: module
-core_version_requirement: ^10
+core_version_requirement: ^10.3
 package: RapidKit
 dependencies:
   - admin_toolbar:admin_toolbar
@@ -37,7 +37,6 @@ dependencies:
   - drupal:page_cache
   - drupal:path
   - drupal:responsive_image
-  - drupal:sdc
   - drupal:schema_metatag
   - drupal:shortcut
   - drupal:system
@@ -45,7 +44,6 @@ dependencies:
   - drupal:telephone
   - drupal:text
   - drupal:toolbar
-  - drupal:tour
   - drupal:user
   - drupal:views
   - drupal:views_ui
