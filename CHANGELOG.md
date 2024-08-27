@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.2.2...v1.3.0) (2024-08-27)
+
+
+### Features
+
+* swapped cl_server for storybook module ([3f9dd3a](https://github.com/ZuCommunications/rapidkit_core/commit/3f9dd3a20d76bcb3355404b589807b40fecd8b37))
+
 ### [1.2.2](https://github.com/ZuCommunications/rapidkit_core/compare/v1.2.1...v1.2.2) (2024-08-26)
 
 ### [1.2.1](https://github.com/ZuCommunications/rapidkit_core/compare/v1.2.0...v1.2.1) (2023-11-09)
