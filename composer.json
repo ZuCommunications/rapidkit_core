@@ -13,7 +13,6 @@
   "require": {
     "cweagans/composer-patches": "^1.7",
     "drupal/admin_toolbar": "^3.5",
-    "drupal/cl_server": "^2.0@beta",
     "drupal/entity_browser": "^2.11",
     "drupal/environment_indicator": "^4.0",
     "drupal/file_delete": "^2.0",
@@ -26,6 +25,7 @@
     "drupal/redirect": "^1.10",
     "drupal/reroute_email": "^2.2",
     "drupal/schema_metatag": "^3.0",
+    "drupal/storybook": "^1.0@beta",
     "drupal/svg_image": "^3.0",
     "drupal/symfony_mailer": "^1.4",
     "drupal/token": "^1.15",
