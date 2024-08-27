@@ -6,7 +6,7 @@ package: RapidKit
 dependencies:
   - admin_toolbar:admin_toolbar
   - admin_toolbar:admin_toolbar_tools
-  - cl_server:cl_server
+  - storybook:storybook
   - ctools:ctools
   - drupal:automated_cron
   - drupal:big_pipe
