@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/ZuCommunications/rapidkit_core/compare/v1.3.0...v1.3.1) (2024-08-27)
+
+
+### Bug Fixes
+
+* add dependency to storybook module ([8d4fbc5](https://github.com/ZuCommunications/rapidkit_core/commit/8d4fbc5e130b6bb39300f3d79d388614983fa078))
+
 ## [1.3.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.2.2...v1.3.0) (2024-08-27)
 
 
