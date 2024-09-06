@@ -68,4 +68,3 @@ dependencies:
   - twig_tweak:twig_tweak
   - twig_vardumper:twig_vardumper
   - upgrade_status:upgrade_status
-  - webp:webp
