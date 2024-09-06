@@ -30,7 +30,7 @@
     "drupal/symfony_mailer": "^1.4",
     "drupal/token": "^1.15",
     "drupal/twig_field_value": "^2.0",
-    "drupal/twig_tweak": "^3.4",
+    "drupal/twig_tweak": "^3.3 || ^3.4",
     "drupal/twig_vardumper": "^3.1",
     "drupal/upgrade_status": "^4.3",
     "drupal/webp": "^1.0@RC"
