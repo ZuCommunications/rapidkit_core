@@ -20,6 +20,7 @@
     "drupal/inline_entity_form": "^1.0@rc || ^3.0.0@rc",
     "drupal/linkit": "^6.1",
     "drupal/metatag": "^2.0",
+    "drupal/obfuscate_email": "^2.1",
     "drupal/pathauto": "^1.13",
     "drupal/pathologic": "^2.0@alpha",
     "drupal/redirect": "^1.10",
