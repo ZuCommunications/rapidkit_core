@@ -33,6 +33,7 @@ dependencies:
   - drupal:menu_link_content
   - drupal:menu_ui
   - drupal:node
+  - drupal:obfuscate_email
   - drupal:options
   - drupal:page_cache
   - drupal:path
