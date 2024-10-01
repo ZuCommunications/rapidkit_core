@@ -14,6 +14,7 @@ dependencies:
   - drupal:block_content
   - drupal:breakpoint
   - drupal:ckeditor5
+  - drupal:ckeditor_accordion
   - drupal:config
   - drupal:content_moderation
   - drupal:contextual
