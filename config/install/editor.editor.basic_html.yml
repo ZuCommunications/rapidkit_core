@@ -5,6 +5,8 @@ dependencies:
     - filter.format.basic_html
   module:
     - ckeditor5
+_core:
+  default_config_hash: cWH0XZ10nENYbkU1shUGnajX6KGkP2pA-VLngjb9SSM
 format: basic_html
 editor: ckeditor5
 settings:
@@ -17,6 +19,7 @@ settings:
       - underline
       - strikethrough
       - removeFormat
+      - Accordion
       - '|'
       - horizontalLine
       - '|'
@@ -49,18 +52,17 @@ settings:
         - heading5
         - heading6
     ckeditor5_list:
-      reversed: false
-      startIndex: true
+      properties:
+        reversed: false
+        startIndex: true
+      multiBlock: true
     ckeditor5_sourceEditing:
       allowed_tags:
         - '<cite>'
-        - '<dl>'
-        - '<dt>'
-        - '<dd>'
         - '<a hreflang>'
         - '<blockquote cite>'
         - '<ul type>'
-        - '<ol start type>'
+        - '<ol type>'
         - '<h2 id>'
         - '<h3 id>'
         - '<h4 id>'
@@ -75,7 +77,7 @@ image_upload:
   status: true
   scheme: public
   directory: inline-images
-  max_size: ''
+  max_size: null
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null
