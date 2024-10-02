@@ -37,5 +37,13 @@
     "drupal/upgrade_status": "^4.3",
     "drupal/webp": "^1.0@RC",
     "drupal/embed_block": "^1.0@alpha"
+  },
+  "extra": {
+    "enable-patching": true,
+    "patches": {
+      "drupal/embed_block": {
+        "Add support for Ckeditor 5 - https://www.drupal.org/project/embed_block/issues/3316336": "https://git.drupalcode.org/project/embed_block/-/merge_requests/5.patch"
+      }
+    }
   }
 }
