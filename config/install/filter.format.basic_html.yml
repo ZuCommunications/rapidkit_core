@@ -10,10 +10,17 @@ dependencies:
     - linkit
     - media
     - pathologic
+    - embed_block
 name: 'Basic HTML'
 format: basic_html
 weight: 0
 filters:
+  embed_block:
+    id: embed_block
+    provider: embed_block
+    status: true
+    weight: 0
+    settings: { }
   filter_html:
     id: filter_html
     provider: filter
