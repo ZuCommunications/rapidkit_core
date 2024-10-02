@@ -10,8 +10,6 @@ dependencies:
     - linkit
     - media
     - pathologic
-_core:
-  default_config_hash: gp3vIAoN8UVw4TrNz_thZe0i66M64VK-zGpVU8Vv7k8
 name: 'Basic HTML'
 format: basic_html
 weight: 0
