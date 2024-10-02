@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.4.0...v1.5.0) (2024-10-02)
+
+
+### Features
+
+* added accordion button to active toolbar ([fcf9727](https://github.com/ZuCommunications/rapidkit_core/commit/fcf97278a67717f73fc39083fc970db8c1ca52c0))
+* removed default config hash from config files ([baf37d5](https://github.com/ZuCommunications/rapidkit_core/commit/baf37d50ecc3c00c976deb26ce57c8d513cd3953))
+
 ## [1.4.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.3.2...v1.4.0) (2024-10-01)
 
 
