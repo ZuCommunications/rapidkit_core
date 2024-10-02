@@ -1,0 +1,29 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.1_1_large
+    - image.style.1_1_medium
+    - image.style.1_1_small
+  module:
+    - rapidkit_image_styles
+id: '1_1'
+label: '1:1'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: 1_1_large
+    breakpoint_id: rapidkit_image_styles.lg
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 1_1_medium
+    breakpoint_id: rapidkit_image_styles.md
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: 1_1_small
+    breakpoint_id: rapidkit_image_styles.xs
+    multiplier: 1x
+breakpoint_group: rapidkit_image_styles
+fallback_image_style: 1_1_small
