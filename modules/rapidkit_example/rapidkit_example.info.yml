@@ -1,0 +1,5 @@
+name: RapidKit Example
+description: "Provides example code that can be used within Rapidkit"
+type: module
+core_version_requirement: ^10
+package: RapidKit
