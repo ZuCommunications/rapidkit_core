@@ -51,11 +51,44 @@ final class ConfigTest extends KernelTestBase
     {
         $view = Views::getView('');
         // TODO: Add View Tests Here
+        // EXAMPLE:
+        // $filters = $view->getDisplay()->getOption('filters');
+        // self::assertEquals('1', $filters['status']['value']);
+        // self::arrserArrayHasKey('some key', $filters['type']['value']);
+
+        // $fields = $view->getDisplay()->getOption('fields');
+        // self::assertArrayHasKey('some key', $fields);
+
+        // $pager = $view->getDisplay()->getOption('pager');
+        // self::assertEquals(25, $pager['options']['items_per_page']);
+
+        // $empty = $view->getDisplay()->getOption('empty');
+        // self::assertStringContainsString("some string", $empty['area']['content']['value']);
     }
 
     private function testConfigForWebform(): void
     {
         $webfrom = Webform::load('');
         // TODO: Add Webform Tests Here
+        // EXAMPLE:
+        // $form = Webform::load('signup_form')
+
+        // $username = $form->getElement('username')
+        // self::assertTrue($username[#required], 'The username is required')
+
+        // $phone = $form->getElement('phone');
+        // self::assertArrayNotHasKey('#required', $phone, 'The phone number field is not required.');
+
+        // $region = $form->getElement('region_selection');
+        // self::assertTrue($region['#required'], 'The region field is required.');
+        // self::assertEquals($region['#options'], [
+        //   'Alberta' => 'Alberta',
+        //   'British Columbia' => 'British Columbia',
+        //   'Manitoba' => 'Manitoba',
+        //   'Northwest Territories' => 'Northwest Territories',
+        //   'Ontario' => 'Ontario',
+        //   'Saskatchewan' => 'Saskatchewan',
+        //   'Yukon' => 'Yukon',
+        // ]);
     }
 }
