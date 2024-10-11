@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.5.0...v1.6.0) (2024-10-11)
+
+
+### Features
+
+* added responsive image styles ([1b7e9fd](https://github.com/ZuCommunications/rapidkit_core/commit/1b7e9fdaa7846ae51295e2ae7a4a293d437f2ef1))
+* added template kernel test script ([33603ae](https://github.com/ZuCommunications/rapidkit_core/commit/33603aecf3aa1865e728df47b67c7982c7c08195))
+* disabled default ckeditor accordion button, not wanted by default ([e203771](https://github.com/ZuCommunications/rapidkit_core/commit/e203771e4a97513096697b74a92c28785f0e0cd2))
+
+
+### Bug Fixes
+
+* added back webp composer dependency ([83dfab6](https://github.com/ZuCommunications/rapidkit_core/commit/83dfab6b41d3e4e0be8a38eb1cb4080dba48507c))
+* corrected module name ([dcf383f](https://github.com/ZuCommunications/rapidkit_core/commit/dcf383f718628f407baa8da503455124adff37ed))
+* removed storybook drupal dependency ([ce2b860](https://github.com/ZuCommunications/rapidkit_core/commit/ce2b8603eb70ac73535df68e1163a60c9efdef69))
+
 ## [1.5.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.4.0...v1.5.0) (2024-10-02)
 
 
