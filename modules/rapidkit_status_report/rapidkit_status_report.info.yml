@@ -1,0 +1,6 @@
+type: module
+name: RapidKit Status Report
+description: 'Custom status report for RapidKit'
+core_version_requirement: ^10
+version: 1.x
+package: RapidKit

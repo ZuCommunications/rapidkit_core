@@ -58,6 +58,7 @@ dependencies:
   - pathologic:pathologic
   - pathauto:pathauto
   - rapidkit_media_bundle:rapidkit_media_bundle
+  - rapidkit_status_report:rapidkit_status_report
   - redirect:redirect
   - reroute_email:reroute_email
   - security_review:security_review

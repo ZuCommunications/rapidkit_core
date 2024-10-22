@@ -1,0 +1,44 @@
+<?php
+
+use Drupal\Core\Config\ConfigFactoryInterface;
+
+/**
+ * Implements hook_requirements().
+ */
+function rapidkit_status_report_requirements(string $phase): array
+{
+  $requirements = [];
+
+  if ($phase === 'runtime') {
+
+    if (\Drupal::moduleHandler()->moduleExists('pathauto')) {
+      $config_factory = \Drupal::configFactory();
+      $patterns_config = $config_factory->listAll('pathauto.pattern');
+
+      if (!empty($patterns_config)) {
+        $requirements['pathauto_patterns_check'] = [
+            'title' => t('Pathauto patterns'),
+            'value' => t('Configured'),
+            'description' => t('There are URL Aliases configured'),
+            'severity' => REQUIREMENT_OK,
+        ];
+      } else {
+        $requirements['pathauto_patterns_check'] = [
+            'title' => t('Pathauto patterns'),
+            'value' => t('Not Configured'),
+            'description' => t('There are no URL Aliases configured'),
+            'severity' => REQUIREMENT_WARNING,
+        ];
+      }
+    } else {
+      $requirements['pathauto_patterns_check'] = [
+          'title' => t('Pathauto patterns'),
+          'value' => t('Not Installed'),
+          'description' => t('Pathauto module is not installed'),
+          'severity' => REQUIREMENT_ERROR,
+      ];
+    }
+  }
+
+  return $requirements;
+}
