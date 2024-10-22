@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.6.1...v1.7.0) (2024-10-22)
+
+
+### Features
+
+* status report custom module ([0d8e8b4](https://github.com/ZuCommunications/rapidkit_core/commit/0d8e8b4676f461a16bee53e7a5717ca6dcb4ca1d))
+
 ### [1.6.1](https://github.com/ZuCommunications/rapidkit_core/compare/v1.6.0...v1.6.1) (2024-10-18)
 
 ## [1.6.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.5.0...v1.6.0) (2024-10-11)
