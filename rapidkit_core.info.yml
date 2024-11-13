@@ -20,6 +20,7 @@ dependencies:
   - drupal:datetime
   - drupal:datetime_range
   - drupal:dblog
+  - drupal:dotenv
   - drupal:dynamic_page_cache
   - drupal:editor
   - drupal:field

@@ -14,6 +14,7 @@
     "cweagans/composer-patches": "^1.7",
     "drupal/admin_toolbar": "^3.5",
     "drupal/ckeditor_accordion": "^2.2",
+    "drupal/dotenv": "^1.2",
     "drupal/entity_browser": "^2.11",
     "drupal/environment_indicator": "^4.0",
     "drupal/file_delete": "^2.0",
