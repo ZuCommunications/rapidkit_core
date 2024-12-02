@@ -55,8 +55,8 @@ dependencies:
   - inline_entity_form:inline_entity_form
   - linkit:linkit
   - metatag:metatag
-  - pathologic:pathologic
   - pathauto:pathauto
+  - pathologic:pathologic
   - rapidkit_media_bundle:rapidkit_media_bundle
   - rapidkit_status_report:rapidkit_status_report
   - redirect:redirect
@@ -68,4 +68,3 @@ dependencies:
   - twig_tweak:twig_tweak
   - twig_vardumper:twig_vardumper
   - upgrade_status:upgrade_status
-  - rapidkit_example:rapidkit_example
