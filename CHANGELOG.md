@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.7.0...v1.8.0) (2024-12-02)
+
+
+### Features
+
+* added purge recipe ([59e0115](https://github.com/ZuCommunications/rapidkit_core/commit/59e011560c0f9d1ca7f8d8f48fe84235051f3f34))
+
 ## [1.7.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.6.1...v1.7.0) (2024-10-22)
 
 
