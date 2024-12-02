@@ -1,0 +1,19 @@
+name: 'RapidKit Purge Recipe'
+description: 'A recipe for the purge and varnish purge module for RapidKit.'
+type: 'RapidKit'
+
+install:
+  - purge
+  - purge_processor_cron
+  - purge_tokens
+  - purge_ui
+  - varnish_purge_tags
+  - varnish_purger
+
+config:
+  import:
+    purge: '*'
+  actions:
+    system.performance:
+      simpleConfigUpdate:
+        cache.page.max_age: 31536000
