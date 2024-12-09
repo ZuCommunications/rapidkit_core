@@ -13,7 +13,6 @@ dependencies:
   - drupal:block_content
   - drupal:breakpoint
   - drupal:ckeditor5
-  - drupal:ckeditor_accordion
   - drupal:config
   - drupal:content_moderation
   - drupal:contextual
@@ -58,7 +57,6 @@ dependencies:
   - pathauto:pathauto
   - pathologic:pathologic
   - rapidkit_media_bundle:rapidkit_media_bundle
-  - rapidkit_status_report:rapidkit_status_report
   - redirect:redirect
   - reroute_email:reroute_email
   - security_review:security_review
