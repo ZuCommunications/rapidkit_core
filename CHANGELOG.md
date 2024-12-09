@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.8.1](https://github.com/ZuCommunications/rapidkit_core/compare/v1.8.0...v1.8.1) (2024-12-09)
+
+
+### Bug Fixes
+
+* removed dependency on ck accordion and status report ([ade3b43](https://github.com/ZuCommunications/rapidkit_core/commit/ade3b437c20a7a4c6dba2f4e5f03f8d5683ea1d2))
+
 ## [1.8.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.7.0...v1.8.0) (2024-12-02)
 
 
