@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/ZuCommunications/rapidkit_core/compare/v1.8.2...v1.9.0) (2025-08-18)
+
+
+### Features
+
+* **composer:** ⬆️ upgrade major version for file_delete ([787fbae](https://github.com/ZuCommunications/rapidkit_core/commit/787fbaec4870607aa7fb1361ccd26ce6e90a11c8))
+
 ### [1.8.2](https://github.com/ZuCommunications/rapidkit_core/compare/v1.8.1...v1.8.2) (2025-08-18)
 
 ### [1.8.1](https://github.com/ZuCommunications/rapidkit_core/compare/v1.8.0...v1.8.1) (2024-12-09)
